@@ -1,0 +1,18 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+
+}
+html{
+background-image: url(./phot.jpg);
+
+}
+.navebaar{
+    height: 50px;
+    width: 1100px;
+margin: 20px;
+padding: 20px;
+background-color: black;
+}

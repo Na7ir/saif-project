@@ -1,0 +1,231 @@
+
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+html{
+     font: size 62.5%; ;
+    font-family: Arial, Helvetica, sans-serif;
+width: 100%;
+background-image: url(./phot.jpg);
+
+
+}
+body{
+line-height: 1.1em;
+font-size: 1.1em;
+}
+
+.navebaar{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+text-decoration: none;
+padding-top: 40px;
+padding-left: 5%;
+padding-right: 5%;
+
+}
+span{
+    color: white;
+}
+a{
+    text-decoration: none;
+    
+}
+.logo{
+color: rgb(23, 22, 24);
+font-size: 30px;
+}
+.logo a{
+    color:black;
+}
+.navebaar ul li {
+list-style: none;
+display: inline-block;
+padding: 20px;
+
+}
+.navebaar ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navebaar ul li a:hover{
+color: white;
+transition: 0.3s ease-in-out;
+padding: 12px 13px;
+border:4px solid black;
+border-radius: 30px;
+background-color: black;
+}
+.btn button{
+border: none;
+background-color: black;
+color: aliceblue;
+border: 2px solid black;
+padding: 12px 13px;
+border-radius: 30px;
+font-weight: bold;
+font size: 15px;
+transition: 0.4s;
+
+}
+.btn button:hover{
+transform: scale(1.3);
+cursor: pointer;
+/* start content */
+}
+.content{
+width: 1200px;
+height: auto;
+ margin: auto;
+ position: relative;
+ color: white;
+
+}
+.para{
+padding: 20px;
+letter-spacing: 1.2px;
+padding-bottom: 25px;
+font-family: Arial, Helvetica, sans-serif;
+line-height: 40px;
+font-size: 20px;
+}
+.content h1{
+padding-left: 20px;
+font-size: 50px;
+font-family: 'Times New Roman', Times, serif;
+margin-top: 9%;
+letter-spacing: 1px;
+color: black;
+}
+.read{
+    border: none;
+    background-color: black;
+    color: aliceblue;
+    padding: 12px 13px;
+    border-radius: 30px;
+    font-weight: bold;
+    font size: 15px;
+    transition: 0.4s;
+    }
+    .read a{
+color: white;
+
+    }
+    .read:hover{
+        transform: scale(1.3);
+        cursor: pointer;
+        }
+        /* form start */
+    .form{
+        width:350px;
+        height:500px;
+         
+        position: absolute;
+        top:-30px ;
+        left:750px ;
+        background:linear-gradient( to top,rgba(0,0,0,0,)50%rgba(0,0,0,0,)50%);
+border-radius: 20px;
+padding: 25px;
+background-color: black;
+border: 2px solid black;
+text-align: center;
+    }
+    .form h2{
+font-size: 25px;
+width: 280px;
+text-align: center;
+color:white;
+background-color:black;
+margin: 2px;
+padding: 10px;
+border-radius: 30px;
+
+
+    }
+    .form input{
+width: 240px;
+height: 35px;
+font-weight: bold;
+font-size: 15px;
+color: black;
+text-align: center;
+margin: 4px;
+padding: 4px;
+border-radius:15px ;
+border: 2px solid black;
+letter-spacing: 1px;
+font-family: Arial, Helvetica, sans-serif;
+
+    }
+    .form .btn {
+        font-size: 20px;
+        width: 150px;
+        height: 45px;
+        text-align: center;
+ margin: 4px;
+padding: 4px; 
+border: 2px solid black;
+border-radius: 35px;
+background-color:white;
+ }
+ .form .btn a{
+text-decoration: none;
+color: black;
+
+ }
+ .form .btn:hover{
+    transform: scale(1.2);
+    transition: .3s;
+ }
+    
+    .link{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 17px;
+padding: 10px;
+text-align: center;
+color:white;
+    }
+    .form .link a{
+text-decoration: none;
+color:white;
+    }
+    .link2{
+padding-top: 5px;
+color: whit;
+
+    }
+    .icon a i{
+text-decoration: none;
+color: white ;
+font-size: 35px;
+padding-top: 20px;
+letter-spacing: 10px;
+    }
+    .icon a i:hover{
+ transform: scale(1.3);
+transition: .3s;
+
+    }
+    /* about us start */
+    .container2 {
+display: flex;
+justify-content: space-between;
+height: 250px;
+width: 100%;
+margin-top: 200px;
+padding: 100px;
+margin-bottom: 100px;
+background-color: black;
+align-items: center;
+    }
+
+    .container2 ul{
+color: white;
+
+    }
+    
